@@ -17,5 +17,6 @@
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "mongoose": "^6.1.6"
-  }
+  },
+  "devDependencies": {}
 }
