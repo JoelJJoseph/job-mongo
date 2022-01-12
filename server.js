@@ -154,7 +154,7 @@ app.post('/update',function(req,res) {
     res.send(200);
 });
 
-app.listen('8000', function(){
+app.listen(process.env.PORT || 8000, function(){
     console.log('server is listening on port 8000');
 });
 
