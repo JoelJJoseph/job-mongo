@@ -154,8 +154,8 @@ app.post('/update',function(req,res) {
     res.send(200);
 });
 
-app.listen('8000', function(){
-    console.log('server is listening on port 8000');
+app.listen('8080', function(){
+    console.log('server is listening on port 8080');
 });
 
 //routeHandler(app);
